@@ -1,0 +1,21 @@
+Console.WriteLine("Informe o primeiro numero: ");
+    int x = int.Parse(Console.ReadLine());
+    Console.WriteLine("Informe o segundo numero: ");
+    int y = int.Parse(Console.ReadLine());
+
+    if (x > y)
+    {
+        Console.WriteLine(x + " é maior do que " + y);
+    }
+    else
+    {
+        if (x == y)
+        {
+            Console.WriteLine("valores iguais");
+        }
+        else
+        {
+            Console.WriteLine(y + " é maior do que " + x);
+        }
+    }
+}
